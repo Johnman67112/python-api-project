@@ -1,0 +1,81 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "python-api-client",
+    "collectionId": "4cc4e89c-4256-4b4c-a164-e02a61d4efd3",
+    "dateExported": "2024-09-30T18:17:10.406Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "35f9ee2a-d371-4e22-a78f-c885f8de1614",
+            "colId": "4cc4e89c-4256-4b4c-a164-e02a61d4efd3",
+            "containerId": "",
+            "name": "Add Book",
+            "url": "localhost:5000/books",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-09-30T17:36:33.524Z",
+            "modified": "2024-09-30T18:09:22.272Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"author\": \"J. R. R. Tolkien\",\n    \"id\": 4,\n    \"title\": \"Lord of the Rings\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "627dbd64-9160-4e9a-96d1-33a51544bd30",
+            "colId": "4cc4e89c-4256-4b4c-a164-e02a61d4efd3",
+            "containerId": "",
+            "name": "Edit Book",
+            "url": "localhost:5000/books/1",
+            "method": "PUT",
+            "sortNum": 20000,
+            "created": "2024-09-30T18:05:20.586Z",
+            "modified": "2024-09-30T18:16:46.930Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"author\": \"J. R. R. Tolkien\",\n    \"id\": 1,\n    \"title\": \"The Hobbit\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "b44bd805-b01a-4554-a3ed-3238cf66b8c1",
+            "colId": "4cc4e89c-4256-4b4c-a164-e02a61d4efd3",
+            "containerId": "",
+            "name": "Delete Book",
+            "url": "localhost:5000/books/3",
+            "method": "DELETE",
+            "sortNum": 25000,
+            "created": "2024-09-30T18:07:17.608Z",
+            "modified": "2024-09-30T18:07:42.135Z",
+            "headers": []
+        },
+        {
+            "_id": "a54ffd7c-ff58-447b-8614-67d2adaa1506",
+            "colId": "4cc4e89c-4256-4b4c-a164-e02a61d4efd3",
+            "containerId": "",
+            "name": "Get Books",
+            "url": "localhost:5000/books",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-09-30T18:06:34.115Z",
+            "modified": "2024-09-30T18:06:40.758Z",
+            "headers": []
+        },
+        {
+            "_id": "06e2cb33-6951-4cba-a69e-827164f93fa6",
+            "colId": "4cc4e89c-4256-4b4c-a164-e02a61d4efd3",
+            "containerId": "",
+            "name": "Get Book By ID",
+            "url": "localhost:5000/books/2",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-09-30T18:06:50.131Z",
+            "modified": "2024-09-30T18:07:08.430Z",
+            "headers": []
+        }
+    ],
+    "ref": "v90Bew10xIKQqyRfsZv1-YeCJOZgIFLE33WHtoO6bpRfqzrDzGvCURd6dKAbg0vyaguekRUepIF70dLQyOO3WA"
+}
